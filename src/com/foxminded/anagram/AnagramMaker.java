@@ -10,9 +10,9 @@ public class AnagramMaker {
                     ) {
                 String tempString = "";
                 for (int i = s.length() - 1; i >= 0; i--) {
-                    tempString = tempString + s.charAt(i);
+                    tempString += s.charAt(i);
                 }
-                string = string + tempString + " ";
+                string += tempString + " ";
             }
         }
         return string;
